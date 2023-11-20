@@ -1,5 +1,0 @@
-<mvc:View>
-xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
-controllername="com.ibm.simpleapp.controller.Day3"
-<button text="XML button"/>
-</mvc:View>

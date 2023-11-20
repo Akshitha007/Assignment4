@@ -1,4 +1,4 @@
-sap.ui.define(["sap/ui/core/mvc/controller"],function(Controller)
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(Controller)
 {
     return Controller.extend ("com.ibm.sampleapp.Day3",{
         onInit :function() {},
