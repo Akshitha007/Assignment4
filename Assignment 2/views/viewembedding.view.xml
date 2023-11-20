@@ -1,1 +1,6 @@
-<mvc:View xmlns:m="sap.ui.core" controllerName:"com.ibm.simpleapp.controller.main"></mvc:View>
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.ibm.simpleapp.controller.Main">
+<mvc:XMLView viewName="com.ibm.simpleapp.view.Main"></mvc:XMLView>
+<mvc:HTMLView viewName="com.ibm.simpleapp.view.MainHTML"></mvc:HTMLView>
+<mvc:JSView viewName="com.ibm.simpleapp.view.MainJS"></mvc:JSView>
+<mvc:JSONView viewName="com.ibm.simpleapp.view.MainJSON"></mvc:JSONView>
+</mvc:View>
