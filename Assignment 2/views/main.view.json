@@ -1,0 +1,9 @@
+{
+    "Type":"sap.ui.core.mvc.view.JSONView",
+    "controllerName":"com.ibm.simpleapp.controller.main",
+    "content":[{
+        "Type":"sap.m.Button",
+        "text":"Json button",
+        "event":"onPressJSON"
+    }]
+}

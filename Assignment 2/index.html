@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>view embedding</title>
+    <script id="sap-ui-bootstrap"
+    src="https://sapui5.hana.ondemand.com/1.71.60/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_belize"
+    data-sap-ui-libs="sap.m"
+    data-sap-ui-resourceroots='{"com.ibm.simpleapp":"./"}'
+    data-sap-ui-async="true">
+    </script>
+    <script>
+           sap.ui.getCore().attachInit(function(){
+         sap.ui.require(["sap/ui/core/mvc/View"],function(oView){
+            oView.create(
+                {
+                    id:"Idview",
+                    type:sap.ui.core.mvc.ViewType.JS,
+                    viewName:"com.ibm.simpleapp.views.main"
+                }).then(function(oView){
+                    oView.placeAt("content");
+
+                }).catch(function(err){
+                   debugger;
+                })
+            
+         })
+
+        });
+        
+          
+    </script>
+</head>
+<body id="content">
+    
+</body>
+</html>
