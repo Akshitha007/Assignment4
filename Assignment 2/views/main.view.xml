@@ -1,4 +1,37 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ibm.simpleapp.controller.main">
-<Button text="XML"/>
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:l="sap.ui.layout" controllerName="com.ibm.simpleapp.controller.main">
+<!--<form:SimpleForm>
+<form:content>
+<core:Title text="Personal details"/>
+<Label text="Name"/>
+<Input />
+<Label text="Last name"/>
+<Input/>
+<Label text="Mail address"/>
+<Input/>
+<Label text="Phone number"/>
+<Input type="Tel"/>
 
+<core:Title text="Office details"/>
+<Label text="Company name"/>
+<Input/>
+<Label text="Company website"/>
+<Input type="Url"/>
+<Label text="Company phone number"/>
+<Input type="Tel"/>
+<Label text="Company addrress"/>
+<Input type="Text"/>
+</form:content>
+</form:SimpleForm>-->
+<l:VerticalLayout id="idVL" width="9rem">
+<l:content>
+</l:content>
+</l:VerticalLayout>
+<Button text="Add to VL" press="onPressFragment"></Button>
+<f:SimpleForm id="isSimpleForm" columnsL="2" columnsM="2" LabelSpanL="2" emptyS="">
+<Text text="{empdata>emp}"/>
+<Text text="{empdata>data}"/>
+<Text text="{empdata>detail}"/>
+<f:content>
+</f:content>
+</f:SimpleForm>
 </mvc:View>
